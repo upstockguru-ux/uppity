@@ -1,12 +1,12 @@
 {
   "name": "uppity-cropper",
-  "version": "1.1.5",
-  "description": "Canvas cropping, texture scaling, and matrix rendering helper.",
-  "main": "src/cropper.js",
+  "version": "2.0.0",
+  "description": "Professional canvas transformation, multi-point scale, and vector rotation engine.",
+  "main": "src/index.js",
   "scripts": {
-    "test": "node test/crop.test.js"
+    "test": "node test/runner.js"
   },
-  "keywords": ["canvas", "cropper", "resize", "affine-matrix", "textures"],
+  "keywords": ["canvas-cropper", "affine-matrix", "gesture-recognition", "vector-rotation", "transform-scaling"],
   "author": "upstockguru-ux",
   "license": "MIT"
 }
