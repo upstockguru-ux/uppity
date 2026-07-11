@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Canvas Image Processor</title>
+  <title>Canvas Cropper Utility</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Image Effects Processor</h1>
-    <canvas id="canvas"></canvas>
-    <div class="controls">
-      <button onclick="applyFilter('grayscale')">Grayscale</button>
-      <button onclick="applyFilter('sepia')">Sepia</button>
-      <button onclick="applyFilter('invert')">Invert</button>
-      <button onclick="reset()">Reset</button>
+  <div class="cropper-box">
+    <h1>Canvas Image Cropper</h1>
+    <div class="workspace">
+      <canvas id="cropCanvas"></canvas>
+      <div id="selectionBox" class="selection-box"></div>
+    </div>
+    <div class="panel">
+      <button onclick="crop()">Perform Crop</button>
+      <button onclick="changeAspect(1)">Square (1:1)</button>
+      <button onclick="changeAspect(1.77)">Widescreen (16:9)</button>
     </div>
   </div>
-  <script src="image-util.js"></script>
+  <script src="cropper.js"></script>
 </body>
 </html>
