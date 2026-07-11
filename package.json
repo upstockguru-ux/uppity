@@ -1,0 +1,12 @@
+{
+  "name": "uppity-cropper",
+  "version": "1.1.5",
+  "description": "Canvas cropping, texture scaling, and matrix rendering helper.",
+  "main": "src/cropper.js",
+  "scripts": {
+    "test": "node test/crop.test.js"
+  },
+  "keywords": ["canvas", "cropper", "resize", "affine-matrix", "textures"],
+  "author": "upstockguru-ux",
+  "license": "MIT"
+}
